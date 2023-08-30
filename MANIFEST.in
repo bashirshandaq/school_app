@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bashir *.css
+recursive-include bashir *.csv
+recursive-include bashir *.html
+recursive-include bashir *.ico
+recursive-include bashir *.js
+recursive-include bashir *.json
+recursive-include bashir *.md
+recursive-include bashir *.png
+recursive-include bashir *.py
+recursive-include bashir *.svg
+recursive-include bashir *.txt
+recursive-exclude bashir *.pyc
